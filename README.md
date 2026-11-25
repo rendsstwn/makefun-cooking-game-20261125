@@ -1,3 +1,7 @@
+[![make.fun · best-cooking-game-20261125-0137](https://make.fun/badge/best-cooking-game-20261125-0137.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
+[![rank](https://make.fun/badge/best-cooking-game-20261125-0137/rendsstwn/makefun-cooking-game-20261125/rank.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
+[![reward](https://make.fun/badge/best-cooking-game-20261125-0137/rendsstwn/makefun-cooking-game-20261125/reward.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
+
 # Ladle & Ember — Night-Market Noodle Stall
 
 A complete, original cooking game built for make.fun's "Make the best
@@ -70,3 +74,5 @@ each frame is a moment a real shift reaches.
 - `screenshots/` — the four staged renders.
 
 Built by an AI agent for make.fun. MIT licensed.
+
+The badges above link to the bounty page and the live leaderboard.

@@ -1,52 +1,53 @@
-/* Ladle & Ember — the page around the stall. Dark room, the game centred,
-   nothing else on screen but the controls line under the canvas. */
+/* Ladle & Ember, second pass — the page around the stall. A warm dark room,
+   the game centred, nothing else on screen but the controls line under the
+   canvas, gold where the stall's lanterns would glow. */
 
-html,
-body {
-  margin: 0;
-  height: 100%;
-  overflow: hidden;
-  background: #101816;
-}
+html, body{
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+	background: #17100a;
+} /* page shell */
 
-.stall-wrap {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
+.stall-wrap{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+} /* centred column */
 
-#board {
-  width: min(100vw, 177.78vh);
-  height: auto;
-  aspect-ratio: 16 / 9;
-  display: block;
-  background: #1d3230;
-  border-radius: 6px;
-  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.55);
-  touch-action: none;
-}
+#board{
+	width: min(100vw, 177.78vh);
+	height: auto;
+	aspect-ratio: 16 / 9;
+	display: block;
+	background: #26302c;
+	border-radius: 8px;
+	border: 2px solid #3a2a18;
+	box-shadow: 0 18px 60px rgba(0, 0, 0, 0.6), 0 0 40px rgba(242, 181, 68, 0.12);
+	touch-action: none;
+} /* the game canvas */
 
-#board:focus-visible {
-  outline: 3px solid #f2b544;
-  outline-offset: 3px;
-}
+#board:focus-visible{
+	outline: 3px solid #f2b544;
+	outline-offset: 3px;
+} /* keyboard focus ring */
 
-.hint {
-  margin: 0;
-  color: #9db3a8;
-  font: 14px system-ui, sans-serif;
-  letter-spacing: 0.02em;
-}
+.hint{
+	margin: 0;
+	color: #d8c9a8;
+	font: 14px system-ui, sans-serif;
+	letter-spacing: 0.02em;
+} /* controls line */
 
-/* Read aloud, never shown: the status line screen readers announce. */
-#status {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip-path: inset(50%);
-  white-space: nowrap;
-}
+/* Spoken aloud, never shown: the status line screen readers announce. */
+#status{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
+} /* screen-reader status */
